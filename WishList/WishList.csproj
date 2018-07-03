@@ -9,6 +9,7 @@
     <Folder Include="Views\Home\" />
     <Folder Include="Controllers\" />
     <Folder Include="Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,4 +17,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\EmptyClass.cs" />
+  </ItemGroup>
 </Project>
